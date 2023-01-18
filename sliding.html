@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="container">
+        <img src="https://images.urbndata.com/is/image/Anthropologie/80627243_050_b2?$an-category$&qlt=80&fit=constrain" alt="Avatar" class="image">
+        <div class="overlay">
+          <div class="text"><a href=""><img  src="https://images.urbndata.com/is/image/Anthropologie/55371884_010_a?$an-category$&qlt=80&fit=constrain" alt="Avatar" class="image"></a></div>
+        </div>
+      </div>
+
+</body>
+</html>
+
+
+<style>
+    .container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+ 
+}
+
+.container:hover .overlay {
+  opacity: 2;
+}
+
+.text {
+  height: 100%;
+  width: 100%;
+  
+  
+  
+  text-align: center;
+}
+</style>
