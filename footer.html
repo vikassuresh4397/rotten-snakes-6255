@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+<div id="footer">
+    <div class="footerChild">
+    <h4 class="heading">Help</h4>
+      <p class="hover-underline"><a href="" target="_nothing" >Track Your Order</a></p>
+     <p class="hover-underline"><a href="" target="_nothing" >Start A Return Or Exchange (US)</a></p>
+     
+     <p class="hover-underline"><a href="" target="_nothing" >Returns & Exchanges</a></p>
+     <p class="hover-underline"><a href="" target="_nothing" >Shipping</a></p>
+    <p class="hover-underline"><a href="" target="_nothing" >Customer Service</a></p>
+    <p class="hover-underline"><a href="" target="_nothing" >Current Promotions</a></p>
+      <p class="hover-underline"><a href="" target="_nothing" >Product Recalls</a></p>
+    
+    
+  </div>
+  <div class="footerChild">
+    <h4 class="heading">About Us</h4>
+    <p class="hover-underline"><a href="" target="_nothing" >Our Story</a></p>
+     <p class="hover-underline"><a href="" target="_nothing" >Events</a></p>
+     
+     <p class="hover-underline"><a href="" target="_nothing" >A Greater Good</a></p>
+     
+    <p class="hover-underline"><a href="" target="_nothing" >Diversity & Inclusion</a></p>
+    <p class="hover-underline"><a href="" target="_nothing" >Stories</a></p>
+    
+  </div>
+  <div class="footerChild">
+    <h4 class="heading">Services</h4>
+    <p class="hover-underline"><a href="" target="_nothing" >Anthro Perks</a></p>
+     <p class="hover-underline"><a href="" target="_nothing" >Gift Cards</a></p>
+     
+     <p class="hover-underline"><a href="" target="_nothing" >AnthroLiving Designer & Trade Program</a></p>
+     <p class="hover-underline"><a href="" target="_nothing" >Furniture: Guides & Services</a></p>
+    <p class="hover-underline"><a href="" target="_nothing" >Store Pickup & Collection Points</a></p>
+    <p class="hover-underline"><a href="" target="_nothing" >Klarna</a></p>
+    
+    
+  </div>
+  <div class="footerChild">
+    <h4 class="heading">Connect</h4>
+     <p class="hover-underline"><a href="" target="_nothing" >Contact Us</a></p>
+     <p class="hover-underline"><a href="" target="_nothing" >Stay Connected</a></p>
+     <p class="hover-underline"><a href="" target="_nothing" >Careers</a></p>
+     <p class="hover-underline"><a href="" target="_nothing" >Styling Services</a></p>
+     <p class="hover-underline"><a href="" target="_nothing" >Request A Catalog</a></p>
+    
+   
+  </div>
+   <div class="footerChild">
+   <p class="hover-underline"><img src="https://img.icons8.com/ios-filled/2x/google-maps-new.png" alt="hi" /><a href="" target="_nothing" >Store Locator</a></p>
+     <p class="hover-underline"><img src="https://img.icons8.com/fluency/2x/apple-mail.png" alt="hi" /><a href="" target="_nothing" >Get Email</a></p>
+  </div>
+  
+</div>
+<div  id="logoOfSocial">
+   <div class="socialLog"> <img src="https://seeklogo.com/images/A/available-on-the-app-store-logo-62D9C35CE7-seeklogo.com.png" alt="hi" /> </div>
+  <div class="socialLog"> <img src="https://www.freepnglogos.com/uploads/pinterest-logo-emblem-png-11.png" alt="hi" /> </div>
+  <div class="socialLog"><img src="https://img.icons8.com/color/2x/instagram-new.png" alt="hi" />  </div>
+  <div class="socialLog"> <img src="https://img.icons8.com/color/2x/facebook.png" alt="hi" /> </div>
+  <div class="socialLog"> <img src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/2x/external-twitter-an-american-online-news-and-social-networking-service-logo-shadow-tal-revivo.png" alt="hi" /> </div>
+  
+</div>
+
+
+
+</body>
+</html>
+
+<style>
+    #getemail{
+  
+  width:100%;
+    padding:20px;
+}
+#emailuperr{
+ 
+  display:flex;
+}
+.emailchild{
+  padding:5px 0px;
+  width:50%;
+}
+.emailchild input[type="email"]{
+  width:60%;
+  font-size:30px;
+}
+.emailchild input[type="submit"]{
+  font-size:30px;
+  margin:0px 20px;
+  background:green;
+  color:white;
+}
+.hover-underline a:link {
+  text-decoration: none;
+}
+
+.hover-underline a:visited {
+  text-decoration: none;
+}
+
+.hover-underline a:hover {
+  text-decoration: underline;
+}
+
+.hover-underline a:active {
+  text-decoration: underline;
+}
+#footer{
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+       padding:20px 40px;
+}
+.footerChild{
+   margin:2px 20px;
+  display:flex;
+  flex-direction:column;
+}
+.heading{
+  
+  color: #0087ca;
+}
+
+.hover-underline img{
+  height:20px;
+    margin-top:2px;
+}
+
+#logoOfSocial{
+  display:flex;
+  justify-content:center;
+}
+#logoOfSocial img{
+  height:30px;
+}
+.socialLog{
+  margin:10px;
+}
+
+
+
+
+
+
+
+
+/* meidum screens */
+@media all and (min-width: 768px) and (max-width: 1024px) {
+       #footer{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+       padding:40px;
+}
+  #emailuperr{
+ 
+           display:flex;
+          flex-direction:column;
+    }
+        .emailchild{
+  padding:5px 0px;
+  width:100%;
+}
+      }
+
+/* small screens */
+      @media all and (min-width: 220px) and (max-width: 767px) {
+        #footer{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        padding:40px;
+         }
+        #emailuperr{
+ 
+           display:flex;
+          flex-direction:column;
+    }
+        .emailchild{
+  padding:5px 0px;
+  width:100%;
+}
+      }
+
+</style>
